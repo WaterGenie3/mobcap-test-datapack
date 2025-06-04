@@ -9,7 +9,7 @@ Ad-hoc datapack to test mobcap in the Java edition of Minecraft.
 * Call `genie:summon_<spawn group>` function to spawn all mobs that contribute to the given spawn group.
 * Call `genie:clear_<spawn group>` to clear the mobs from the corresponding summon command.
 
-But recommended just using this [world download]() with all the commands and test setups already prepared.
+[WIP] But recommended using this [world download]()(WIP) with all the commands and test setups already prepared.
 
 ### Example World Download
 

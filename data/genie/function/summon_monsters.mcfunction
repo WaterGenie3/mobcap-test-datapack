@@ -1,4 +1,4 @@
-fill ~-18 ~15 ~-10 ~0 ~15 ~-10 pale_oak_slab[type=top]
+fill ~-18 ~15 ~-10 ~0 ~15 ~-10 pale_oak_slab[type=bottom]
 
 fill ~-18 ~12 ~-14 ~0 ~1 ~-14 red_stained_glass
 

@@ -35,6 +35,6 @@ summon wolf ~16 ~4 ~-10 {NoAI:1b, Silent:1b, Tags:["creature_mob"], CustomName: 
 summon zombie_horse ~18 ~4 ~-10 {NoAI:1b, Silent:1b, Tags:["creature_mob"], CustomName: "30. Zombie Horse", CustomNameVisible:1b}
 
 summon tadpole ~0 ~1 ~-10 {NoAI:1b, Silent:1b, Tags:["creature_mob"], CustomName: "[n/a] Tadpole", CustomNameVisible:1b}
-summon text_display ~0 ~0 ~-10 {billboard: "center", text: "(has special code to not count them in the creature cap)", Tags:["creature_mob"]}
+summon text_display ~0 ~-0.5 ~-10 {billboard: "center", text: "(always marked as persistent, so they are never counted in the creature cap)", Tags:["creature_mob"]}
 setblock ~0 ~1 ~-10 water strict
 schedule function genie:reset_tadpole_age 2000t
